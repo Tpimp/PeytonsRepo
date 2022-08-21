@@ -1,0 +1,9 @@
+{
+    "name":"Sensor Dials",
+    "contentType":"Qml",
+    "version":1,
+    "versionText":"v0.1",
+    "icon":"images/preview.png",
+    "entry":"Dials.qml",
+    "files":[""]
+}
