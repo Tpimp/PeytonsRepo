@@ -3,5 +3,6 @@
     "type":3,
     "icon":"peyton.png",
     "url":"https://raw.githubusercontent.com/Tpimp/PeytonsRepo/main/repo.json",
-    "images":["gifs/elon.json", "gifs/snoop.json", "gifs/hungry_icecream.json"]
+    "images":["gifs/elon.json", "gifs/snoop.json", "gifs/hungry_icecream.json"],
+    "modules":["https://raw.githubusercontent.com/Tpimp/PeytonsRepo/main/modules/NonOEM/manifest.json"]
 }

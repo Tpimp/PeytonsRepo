@@ -11,9 +11,9 @@ Rectangle{
     }
     Rectangle{
         anchors.centerIn: parent
-        height:264
-        width:264
-        radius:132
+        height:background.height * .85
+        width:background.height * .85
+        radius:background.width /2 * .85
         color:"black"
         Text{
             anchors{
@@ -215,7 +215,8 @@ Rectangle{
     }
     SensorMonitor{
         id:gpuCore
-        sensor:GPU.CoreTemp
+        sensor:CPU.AverageTemp
+        device: 102
         onValueChanged:setGPUValue(value);
     }
     Component.onCompleted: {
